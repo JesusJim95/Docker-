@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="186px" height="186px" viewBox="-1 15.247 186 186" enable-background="new -1 15.247 186 186"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<defs>
+		<rect id="SVGID_2_" width="184" height="183.999"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  overflow="visible"/>
+	</clipPath>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="16.248" width="184" height="184"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_4_)" fill="#78AB2B" d="M92,200.247c50.81,0,92-41.19,92-92c0-50.813-41.19-92-92-92s-92,41.187-92,92
+		C0,159.057,41.19,200.247,92,200.247"/>
+	<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M138.768,148.147c0,1.012-0.787,1.797-1.797,1.797h-10.785
+		c-1.012,0-1.797-0.785-1.797-1.797V65.467c0-1.012,0.785-1.797,1.797-1.797h10.785c1.01,0,1.797,0.785,1.797,1.797V148.147z
+		 M117.196,148.147c0,1.012-0.785,1.797-1.797,1.797h-10.783c-1.012,0-1.799-0.785-1.799-1.797V94.225
+		c0-1.011,0.787-1.797,1.799-1.797h10.783c1.012,0,1.797,0.786,1.797,1.797V148.147z M95.63,148.147
+		c0,1.012-0.786,1.797-1.797,1.797H83.047c-1.012,0-1.797-0.785-1.797-1.797v-32.353c0-1.011,0.786-1.801,1.797-1.801h10.786
+		c1.011,0,1.797,0.79,1.797,1.801V148.147z M74.061,148.147c0,1.012-0.786,1.797-1.797,1.797H61.478
+		c-1.011,0-1.797-0.785-1.797-1.797v-17.973c0-1.012,0.786-1.801,1.797-1.801h10.786c1.011,0,1.797,0.789,1.797,1.801V148.147z
+		 M52.492,148.147c0,1.012-0.786,1.797-1.797,1.797H39.911c-1.012,0-1.799-0.785-1.799-1.797v-10.785
+		c0-1.012,0.787-1.797,1.799-1.797h10.784c1.011,0,1.797,0.785,1.797,1.797V148.147z"/>
+</g>
+</svg>

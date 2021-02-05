@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0'>
+    <title>qa-test</title>
+  <link rel="shortcut icon" href="favicon.ico"><link href="application.45048e8404f64d4b3ca2.css" rel="stylesheet"></head>
+  <body>
+    <div id="app">
+      <component v-if="$route.meta.layout == 'session' || $store.state.currentUser" :is="($route.meta.layout || 'default') + '-layout'">
+      </component>
+
+      <ns-loading :message="$t('general.loading')" :fullscreen="true" v-if="$store.state.loading">
+    </div>
+  <script type="text/javascript" src="application.45048e8404f64d4b3ca2.js"></script></body>
+</html>

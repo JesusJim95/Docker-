@@ -1,0 +1,6 @@
+WORDPRESS_DB_HOST=wordpress_mysql
+WORDPRESS_DB_USER=user
+WORDPRESS_DB_PASSWORD=password
+WORDPRESS_DB_NAME=wordpress
+WP_HOME=http://wordpressdocker.jjimenez.nosolosoftware.es
+WP_SITEURL=http://wordpressdocker.jjimenez.nosolosoftware.es

@@ -1,0 +1,9 @@
+FROM nginx:latest
+WORKDIR /etc/nginx
+RUN mkdir /ssl
+COPY ./conf_app.conf /etc/nginx/conf.d/
+COPY ./gitlab.crt /etc/nginx/ssl/
+COPY ./gitlab.key /etc/nginx/ssl/
+
+CMD ["nginx", "-g", "daemon off;"]
+

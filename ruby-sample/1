@@ -1,0 +1,28 @@
+FROM ruby:2.6.3
+
+#installers
+RUN apt-get update -q && apt-get install -y build-essential libpq-dev nodejs curl
+RUN apt-get install -qy nginx && apt-get install -y yarn
+
+#Create directory
+RUN mkdir /app
+COPY ./ruby-rails-sample /app
+WORKDIR /app/ruby-rails-sample
+COPY ./conf_sampleruby /etc/nginx/sites-enabled/
+
+#Install gems
+RUN bundle
+RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+
+ENV RAILS_ENV development
+ENV PORT 8080
+
+RUN /bin/bash -l -c "bundle install"
+
+EXPOSE 8080
+
+
+CMD bundle exec rake bootstrap
+CMD heroku local
+

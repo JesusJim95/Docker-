@@ -1,0 +1,6 @@
+FROM nginx:latest
+
+COPY ./conf_nssn.conf /etc/nginx/conf.d/ 
+
+CMD ["nginx", "-g", "daemon off;"]
+
